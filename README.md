@@ -1,8 +1,10 @@
-# API_REST
+# API_REST CRUD
+
 Trabalho de Recuperação – Desenvolvimento Web | Bianca Ferreira Morais
 
 1. Descrição do Projeto:
 Este projeto é uma API REST simples para gerenciar uma lista de tarefas (To-do list). A API foi desenvolvida em Node.js usando o framework Express. As tarefas são armazenadas em memória, sem a necessidade de um banco de dados. O projeto inclui as quatro operações básicas de CRUD: Criar, Ler, Atualizar e Excluir. A comunicação entre o cliente e o servidor é feita via JSON.
+
 
 2. Pré-requisitos:
 Para rodar esta aplicação, você precisa do:
@@ -14,12 +16,14 @@ Após baixar o projeto, abra o terminal na pasta raiz do projeto. Execute o coma
 
 npm install
 
+
 4. Comando para Iniciar o Servidor:
 Para iniciar o servidor em modo de desenvolvimento, use o comando:
 
 npm run dev
 
 O Nodemon será usado para monitorar as alterações e reiniciar o servidor automaticamente. Você verá uma mensagem no terminal informando que o servidor está rodando na porta 3000.
+
 
 5. Rotas da API:
 As seguintes rotas estão disponíveis para gerenciar as tarefas:
@@ -31,6 +35,7 @@ GET /tarefas: Lista todas as tarefas.
 PUT /tarefas/:id: Atualiza uma tarefa existente pelo seu ID.
 
 DELETE /tarefas/:id: Exclui uma tarefa existente pelo seu ID.
+
 
 6. Exemplo de JSON para uso:
 Para as requisições POST e PUT, você deve enviar um corpo JSON. Aqui estão exemplos de como o JSON deve ser estruturado:
